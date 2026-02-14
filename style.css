@@ -1,0 +1,159 @@
+/*
+ARCHIVO: style.css
+CAPA: PRESENTACION
+RESPONSABILIDAD: Apariencia visual de la aplicacion.
+No manjea la logica ni el manejo de datos.
+*/
+
+body{
+    /* Define la tipografia general de toda la pagina */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Establece una imagen de fondo para la interfaz */
+    background-image: url(balatro.gif);
+
+    /* Activa el modelo flexbox para centrar el contenido */
+    display: flex;
+
+    /* Centra horizontalmente el contenedor principal */
+    justify-content: center;
+
+    /* Centra verticalmente el contenedor principal */
+    align-items: center;
+
+    /* Hace que el body ocupe toda la altura de la ventana */
+    height: 100vh;
+
+    /* Elimina el margen por defecto que da el navegador */
+    margin: 0;
+}
+
+.container{
+    /* Define un fondo semitransparente para el panel principal */
+    background-color: #5a5a5a9d;
+
+    /* Agrega espacio interno dentro del contenedor */
+    padding: 2rem;
+
+    /* Redondea las esquinas del contenedor */
+    border-radius: 12px;
+
+    /* Agrega una sombra decorativa */
+    box-shadow: 0 4px 0 0 rgba(red, green, blue, alpha);
+
+    /* Establece un ancho fijo al contenedor */
+    width: 300px;
+}
+
+h1{
+    /* Color del titulo principal */
+    color: white;
+
+    /* Permite centrar el texto usando flexbox */
+    display: flex;
+
+    /* Centra horizontalmente el texto */
+    justify-content: center;
+}
+
+h2{
+    /* Color del subtitulo */
+    color: white;
+
+    /* Espacio inferior para separarlo de los inputs */
+    margin-bottom: 1.5rem;
+
+    /* Permite centrar el texto usando flexbox */
+    display: flex;
+
+    /* Centra horizontalmente el texto */
+    justify-content: center;
+}
+
+input{
+    /* Hace que el input ocupe todo el ancho disponible */
+    width: 100%;
+
+    /* Espaciado interno del campo */
+    padding: 10px;
+
+    /* Espaciado vertical entre inputs */
+    margin: 10px 0;
+
+    /* Define el borde del input */
+    border: 1px solid #2f2f2f;
+
+    /* Bordes redondeados */
+    border-radius: 6px;
+
+    /* Incluye padding y borde dentro del ancho total */
+    box-sizing: border-box;
+
+    /* Tamaño del texto dentro del input */
+    font-size: 1rem;
+}
+
+input:focus{
+    /* Cambia el color del borde cuando el usuario selecciona el input */
+    border-color: #1e6cff;
+
+    /* Elimina el borde azul por defecto del navegador */
+    outline: none;
+
+    /* Agrega un efecto de sombra para indicar enfoque */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+button{
+    /* Hace que el boton ocupe todo el ancho */
+    width: 100%;
+
+    /* Espaciado interno del boton */
+    padding: 12px;
+
+    /* Color de fondo del boton */
+    background-color: #ff9200;
+
+    /* Color del texto */
+    color: white;
+
+    /* Elimina el borde por defecto */
+    border: none;
+
+    /* Bordes redondeados */
+    border-radius: 6px;
+
+    /* Tamaño del texto */
+    font-size: 1rem;
+
+    /* Separacion superior respecto a los inputs */
+    margin-top: 10px;
+
+    /* Cambia el cursor al dedo al pasar sobre el boton */
+    cursor: pointer;
+
+    /* Transicion suave cuando cambia el color */
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    /* Cambia el color cuando el usuario pasa el mouse por encima */
+    background-color: #e68608;
+}
+
+#resultado{
+    /* Espacio superior para separar del boton */
+    margin-top: 20px;
+
+    /* Hace el texto mas grueso */
+    font-weight: bold;
+
+    /* Aumenta el tamaño del texto */
+    font-size: 1.2rem;
+
+    /* Color del resultado */
+    color: white;
+
+    /* Centra el texto */
+    text-align: center;
+}

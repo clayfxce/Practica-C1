@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capas</title>
+
+    <!-- Enlace al archivo style -->
+    <!-- CAPA DE PRESENTACION: Este archivo define como se va a ver la interfaz -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Contenedor principal de la aplicacion -->
+    <!-- Aqui se muestran los elementos con los que puede interactuar el usuario -->
+    <div class="container">
+        <h1 class="ejemplo">Ejemplo basico</h1>
+        <h2>Suma de dos numeros</h2>
+
+        <!-- Campo donde el usuario ingresa el primer numero -->
+        <input type="number" id="num1" placeholder="Numero 1">
+
+        <!-- Campo donde el usuario ingresa el segundo numero -->
+        <input type="number" id="num2" placeholder="Numero 2">
+
+        <!-- Boton que ejecuta la funcion de sumar -->
+        <!-- FLUJO: Cuando el usuario hace clic, se llama a la funcion definida en la capa de logica -->
+        <button onclick="sumar()">SUMAR</button>
+        
+        <!-- Aqui se muestra el resultado de la operacion -->
+        <p id="resultado"></p>
+    </div>
+
+<!-- Archivo que contiene los datos -->
+<!-- CAPA DE DATOS: Proporciona la informacion necesaria para la aplicacion -->
+<script src="datos.js"></script>
+
+<!-- Archivo con la logica de negocio -->
+<!-- CAPA DE LOGICA: Procesa los datos y controla el comportamiento de la aplicacion -->
+<script src="logica.js"></script>
+</body>
+</html>
