@@ -4,14 +4,15 @@ Este repositorio contiene el desarrollo de la Práctica 1 para la asignatura de 
 
 ## Datos del Alumno
 * **Nombre:** Joel Fernando Juarez Barron
-* **Carrera:** Ingeniería en Tecnologías de la Información
+* **Carrera:** Ingeniería Informatica
 * **Semestre:** 6to Semestre
+* **Profesor:** Saul Cruz Diaz
 
 ## Descripción del Proyecto
 El proyecto consiste en una aplicación web funcional que integra estructura, diseño y lógica de programación mediante el uso de los siguientes lenguajes:
 
 * **HTML5:** Definición de la estructura semántica.
-* **CSS3:** Implementación de estilos y diseño visual.
+* **CSS:** Implementación de estilos y diseño visual.
 * **JavaScript:** Desarrollo de la lógica funcional y manejo de datos.
 
 ## Archivos del Repositorio
