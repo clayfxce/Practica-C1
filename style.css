@@ -10,7 +10,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 
     /* Establece una imagen de fondo para la interfaz */
-    background-image: url(balatro.gif);
+    background-image: url(balatro.png);
 
     /* Activa el modelo flexbox para centrar el contenido */
     display: flex;
@@ -157,3 +157,4 @@ button:hover{
     /* Centra el texto */
     text-align: center;
 }
+
